@@ -1,0 +1,41 @@
+{
+    "name": "image-to-pdf-converter-frontend",
+    "version": "1.0.0",
+    "dependencies": {
+        "@dnd-kit/core": "^6.0.2",
+        "@dnd-kit/sortable": "^5.0.0",
+        "ajv": "^8.17.1",
+        "axios": "^1.7.9",
+        "file-saver": "^2.0.5",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-dropzone": "^14.3.5",
+        "react-scripts": "^5.0.1",
+        "react-sortable-hoc": "^2.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "dev": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
